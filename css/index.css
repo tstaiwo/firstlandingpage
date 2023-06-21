@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+    height: 500vh;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    z-index: 1000;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    padding:10px 30px 0;
+    width: 10%;
+}
+
+.logo span{
+    width: 0px;
+    height: 24px;
+    background: #0065FE;
+    border: 2px solid #0065FE;
+    margin: 0 10px;
+}
+
+.logo h2{
+    width: 99px;
+    height: 24px;
+    text-transform: uppercase;
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #0065FE;
+}
+
+.menus{
+    display: flex;
+    width: 60%;
+}
+
+.menus li{
+    list-style-type: none;
+    padding:10px 30px 0;
+    height: 22px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 21px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.menus li img{
+    padding: 0 10px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:active{
+    color: #0065FE;
+}
+
+.login{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.login li{
+    list-style-type: none;
+    padding:10px 80px 0;
+}
+
+.login button{
+    padding:10px 30px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #0065FE;
+    border-radius: 20px;
+    border: none;
+}
+
+.box{
+    width: 80%;
+    margin: 5% auto;
+    position: relative;
+}
+
+.box1{
+    position: absolute;
+    width: 948px;
+    height: 200px;
+    left: calc(50% - 948px/2);
+    top: 0px;
+}
+
+.box1 h3{
+    font-family: 'Gilroy-Bold';
+    font-size: 48px;
+    line-height: 80px;
+    text-align: center;
+    color: #141414;
+}
+
+.box1 span{
+    color: #0065FE;
+}
+
+.box1 img{
+    position: absolute;
+    width: 173.63px;
+    height: 19.91px;
+    left: 397px;
+    top: 150.91px;
+}
+
+.box2{
+    position: absolute;
+    width: 650px;
+    height: 105px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 500;
+    color: #141414;
+    left: calc(50% - 650px/2);
+    top: 190.91px;
+}
+
+.box_button{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    color: #141414;
+    left: calc(50% - 400px/2);
+    top: 320.91px;
+}
+
+.box_button button{
+    padding:10px 30px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #0065FE;
+    border-radius: 20px;
+    border: none;
+}
+
+.box_button .learn{
+    background-color: white;
+    color: #0065FE;
+    font-weight: 600;
+}
+
+.topImage .img1{
+    position: absolute;
+    width: 833px;
+    height: 336.57px;
+    left: calc(50% - 833px/2 + 65.5px);
+    top: 530px;
+}
+
+.middleImage .img1{
+    position: absolute;
+    width: 1200px;
+    height: 93px;
+    left: calc(50% - 1200px/2 + 65.5px);
+    top: 871px;
+}
+
+.middleImage .img2{
+    position: absolute;
+    width: 856px;
+    height: 49px;
+    left: calc(50% - 856px/2 + 65.5px);
+    top: 891px;
+}
+
+.middleImage .img3{
+    position: absolute;
+    width: 1200px;
+    left: calc(50% - 1200px/2 + 65.5px);
+    top: 961px;
+}
+
+.features .img1 img{
+    position: absolute;
+    width: 1200px;
+    left: calc(50% - 1200px/2 + 65.5px);
+    top: 1250px;
+}
+
+.features .img2 img{
+    position: absolute;
+    width: 620px;
+    left: calc(50% - 620px/2 + 65.5px);
+    top: 270%;
+}
+
+.prices .img1 img{
+    position: absolute;
+    width: 1200px;
+    left: calc(50% - 1200px/2 + 65.5px);
+    top: 295%;
+}
+
+.prices .img2 img{
+    position: absolute;
+    width: 400px;
+    left: calc(50% - 400px/2 + 65.5px);
+    top: 400%;
+}
+
+.login .img1 img{
+    position: absolute;
+    width: 1200px;
+    left: calc(50% - 1200px/2 + 65.5px);
+    top: 420%;
+}
+
+.faqs .img1 img{
+    position: absolute;
+    width: 800px;
+    left: calc(50% - 800px/2 + 65.5px);
+    top: 490%;
+}
+
+.get_started .img1 img{
+    position: absolute;
+    width: 1200px;
+    left: calc(50% - 1200px/2 + 65.5px);
+    top: 640%;
+}
+
+.footer .img1 img{
+    position: absolute;
+    width: 1200px;
+    left: calc(50% - 1200px/2 + 65.5px);
+    top: 670%;
+    padding-bottom: 50px;
+}
